@@ -15,7 +15,28 @@
         <input type="text" name="password" id="password">
     </div>
     <div>
-
+        <span id="textLength">8</span>
+        <label for="length">Length:</label>
+        <input type="range" value="8" min="8" max="50">
+    </div>
+    <div class="container">
+        <label for="lowercase">Use lowercase (a-z):</label>
+        <input type="checkbox" name="lowercase" id="lowercase">
+    </div>
+    <div class="container">
+        <label for="uppercase">Use uppercase (A-Z):</label>
+        <input type="checkbox" name="uppercase" id="uppercase">
+    </div>
+    <div class="container">
+        <label for="numbers">Use numbers (0-9):</label>
+        <input type="checkbox" name="numbers" id="numbers">
+    </div>
+    <div class="container">
+        <label for="numbers">Use numbers (0-9):</label>
+        <input type="checkbox" name="numbers" id="numbers">
+    </div>
+    <div class="container">
+        <button id="generateBtn">Generate password</button>
     </div>
 
     <script src="main.js"></script>
